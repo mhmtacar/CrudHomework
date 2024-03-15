@@ -1,0 +1,17 @@
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\Business.deps.json
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\Business.dll
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\Business.pdb
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\DataAccess.dll
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\Entities.dll
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\DataAccess.pdb
+D:\Users\Lenovo\source\repos\CrudHomework\Business\bin\Debug\net8.0\Entities.pdb
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.csproj.CopyComplete
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.dll
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\refint\Business.dll
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\Business.pdb
+D:\Users\Lenovo\source\repos\CrudHomework\Business\obj\Debug\net8.0\ref\Business.dll

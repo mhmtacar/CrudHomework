@@ -26,6 +26,8 @@ namespace DataAccess.Concrete
             if (deletedValue != null)
             {
                 values.Remove(deletedValue);
+                Console.WriteLine("Silme işlemi başarıyla gerçekleşti");
+
             }
             else
             {
@@ -53,7 +55,8 @@ namespace DataAccess.Concrete
             T updatedValue = values.SingleOrDefault(x => x.Id == entity.Id);
             if (updatedValue != null)
             {
-                updatedValue.Name = entity.Name;
+                updatedValue = entity;
+                Console.WriteLine("Güncelleme işlemi başarıyla gerçekleşti");
             }
             else
             {

@@ -42,12 +42,8 @@ Console.WriteLine();
 var ınstructors = ınstructorManager.GetAll();
 
 Console.WriteLine("Yeni eğitmen eklenmeden önceki eğitmen listesi");
-foreach (var instructor in ınstructors)
-{
-    Console.WriteLine("Instructor Name: " + instructor.Name);
-    Console.WriteLine("Instructor Last Name: " + instructor.LastName);
-    Console.WriteLine();
-}
+Console.WriteLine();
+PrintAllValues(ınstructors);
 
 Console.WriteLine("*******");
 Console.WriteLine();
@@ -57,30 +53,37 @@ Instructor ınstructor3 = new Instructor() { Id = 3, Name = "Mehmet", LastName =
 var ınstructors2 = ınstructorManager.GetAll();
 
 Console.WriteLine("Yeni eğitmen eklendikten sonraki eğitmen listesi");
-foreach (var instructor in ınstructors2)
+Console.WriteLine();
+PrintAllValues(ınstructors2);
+
+Console.WriteLine("*******");
+Console.WriteLine();
+
+ınstructor3.Name = "Murat";
+ınstructor3.LastName = "Yılmaz";
+ınstructorManager.Update(ınstructor3);
+var ınstructors3 = ınstructorManager.GetAll();
+Console.WriteLine();
+Console.WriteLine("Eğitmen güncellemesinden sonraki eğitmen listesi");
+Console.WriteLine();
+PrintAllValues(ınstructors3);
+
+Console.WriteLine("*******");
+Console.WriteLine();
+
+ınstructorManager.Delete(ınstructor3);
+var ınstructors4 = ınstructorManager.GetAll();
+Console.WriteLine();
+Console.WriteLine("Eğitmen silinmesinden sonraki eğitmen listesi");
+Console.WriteLine();
+PrintAllValues(ınstructors4);
+
+void PrintAllValues(List<Instructor> ınstructors)
 {
-    Console.WriteLine("Instructor Name: " + instructor.Name);
-    Console.WriteLine("Instructor Last Name: " + instructor.LastName);
-    Console.WriteLine();
+    foreach (var instructor in ınstructors)
+    {
+        Console.WriteLine("Instructor Name: " + instructor.Name);
+        Console.WriteLine("Instructor Last Name: " + instructor.LastName);
+        Console.WriteLine();
+    }
 }
-
-
-
-
-//foreach (var value in values)
-//{
-//    Console.WriteLine(value.Name);
-//    Console.WriteLine(value.Category.Name);
-//    Console.WriteLine(value.Instructor.Name);
-//}
-
-//Category c2 = new Category() { Id = 1, Name = "PC2" };
-
-//cm.Update(c2);
-
-//var values2 = cm.GetAll();
-
-//foreach (var value in values2)
-//{
-//    Console.WriteLine(value.Name);
-//}
